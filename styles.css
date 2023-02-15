@@ -1,1 +1,67 @@
 /* your code here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.media-icons {
+    flex: 1;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+.media-icons ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 8px;
+    position: relative;
+}
+
+.bottom-details {
+    background-color: #2C303f;
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.policy {
+    flex: 1;
+}
+
+.media-icons .fb:hover {
+    color: #166FE5;
+}
+
+.media-icons .twitter:hover {
+    color: #0F9AFB;
+}
+
+.media-icons .insta:hover {
+    color: #F54F52;
+}
+
+.media-icons .linkdin:hover {
+    color: #0A66C2;
+}
+
+.media-icons .youtube:hover {
+    color: #FF0000;
+}
